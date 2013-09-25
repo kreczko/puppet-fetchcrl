@@ -16,7 +16,7 @@ class fetchcrl::service (
              enable => $runcron,
              hasstatus => true,
              hasrestart => true,
-             require => Class["fetchcrl::install"];
+             require => Class['fetchcrl::install'];
   }
 
 

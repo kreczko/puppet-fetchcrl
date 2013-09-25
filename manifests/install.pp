@@ -23,7 +23,7 @@ class fetchcrl::install (
         enabled  => 1,
         baseurl  => $carepo,
         gpgcheck => 1,
-        gpgkey   => "file:///etc/pki/rpm-gpg/GPG-KEY-EUGridPMA-RPM-3",
+        gpgkey   => 'file:///etc/pki/rpm-gpg/GPG-KEY-EUGridPMA-RPM-3',
         require  => File['/etc/pki/rpm-gpg/GPG-KEY-EUGridPMA-RPM-3']
      }
 
