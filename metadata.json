@@ -1,0 +1,13 @@
+{
+  "name": "cernops-fetchcrl",
+  "version": "0.0.2",
+  "summary": "Intalls and configure fetch-crl",
+  "author": "cernops",
+  "description": "Install and configure fetch-crl",
+  "dependencies": [],
+  "types": [],
+  "checksums": {},
+  "source": "http://github.com/cernops",
+  "project_page": "http://github.com/cernops",
+  "license": "Apache License, Version 2.0"
+}
